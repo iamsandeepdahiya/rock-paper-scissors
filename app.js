@@ -18,7 +18,7 @@ let computerSelection = getComputerChoice();
 let playerscore = 0;
 let computerscore = 0;
 
-for (let gameCount =0; gameCount<5; gameCount++) {
+for (let gameCount =0; gameCount<5; gameCount) {
     
     //play the game
     function playRound(playerSelection, computerSelection) {
@@ -31,57 +31,58 @@ for (let gameCount =0; gameCount<5; gameCount++) {
     if (computerSelection ==`rock`){
         if (playerSelection == `rock`) {
             alert("its a tie as both have rock.");
-            gameCount++
+          
         }
         else if (playerSelection == `paper`) {
             alert("player wins as computer is rock and player is paper.");
             playerscore++;    
-            gameCount++
+       
         }
         else {
             alert("computer wins as computer is rock and player is scissor.");
             computerscore++;
-            gameCount++
+          
         }
     }
 
     if (computerSelection ==`paper`){
         if (playerSelection == `paper`) {
             alert("its a tie as both have paper.");
-            gameCount++
+            
         }
         else if (playerSelection == `scissor`) {
             alert("player wins as computer is paper and player is scissor.");
             playerscore++;
-            gameCount++
+          
         }
         else {
             alert("computer wins as computer is paper and player is rock.");
             computerscore++;
-            gameCount++
+           
         }
     }
 
     if (computerSelection ==`scissor`){
         if (playerSelection == `scissor`) {
             alert("its a tie as both have scissors.");
-            gameCount++
+          
         }
         else if (playerSelection == `rock`) {
             alert("player wins as computer is scissor and player is rock.");
             playerscore++;
-            gameCount++
+            
         }
         else {
             alert("computer wins as computer is scissor and player is paper.");
             computerscore++;
-            gameCount++
+            
         }
     }
     }
     }
     
 playRound(playerSelection, computerSelection);
+gameCount++;
 alert(computerscore);
 alert(playerscore);
 
