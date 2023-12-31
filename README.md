@@ -11,6 +11,7 @@ All the best, hope you'll enjoy this game.
 
 Feel free to msg me if you find somethings not working properly.
 
+[Click Me to play!](https://iamsandeepdahiya.github.io/rock-paper-scissors/)
 
 
 ## Authors
