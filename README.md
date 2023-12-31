@@ -1,16 +1,18 @@
-# rock-paper-scissors
-//get computer choice by random
-//get player selection using prompt
-//compare the two choices
-    //if computer has chosen rock and player also rock = tie
-    //if computer has chosen rock and player paper = player wins
-    //if computer has chosen rock and player scissor = comp wins
-    //if computer has chosen scissor and player also scissor = tie
-    //if computer has chosen scissor and player rock = player wins
-    //if computer has chosen scissor and player paper = comp wins
-    //if computer has chosen paper and player also paper = tie
-    //if computer has chosen paper and player rock = comp wins
-    //if computer has chosen paper and player scissor = player wins
-//print the result
+# Rock Paper Scissor game
 
-//make it run five times and store the result
+This is a fun game! There are three options you can choose from - Rock or Paper or Scissor. We have used random mathed to assign computer an option out of above three to play with you.
+
+Here is thumb rule :-
+Rock beats scissors, scissors beat paper, and paper beats rock.
+
+There are going to be five rounds in each play and the best of five wins. Simple! 
+
+All the best, hope you'll enjoy this game. 
+
+Feel free to msg me if you find somethings not working properly.
+
+
+
+## Authors
+
+- [@iamsandeepdahiya](https://github.com/iamsandeepdahiya/)
