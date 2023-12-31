@@ -14,7 +14,7 @@ let computerSelection = getComputerChoice();
 
 
 
-
+//set score to zero and games to five
 let playerscore = 0;
 let computerscore = 0;
 
@@ -80,15 +80,12 @@ for (let gameCount =0; gameCount<5; gameCount) {
     }
     }
     }
-    
-playRound(playerSelection, computerSelection);
-gameCount++;
+ 
+playRound(playerSelection, getComputerChoice());
 alert(computerscore);
 alert(playerscore);
-
-}
-    
-
+gameCount++;
+}  
 
 
 
